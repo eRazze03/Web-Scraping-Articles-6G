@@ -6,13 +6,13 @@ Ce projet est une application qui récupère des articles scientifiques depuis l
 
 ## Comment exécuter le code 
 
-Apres avoir télécharger les fichiers, exécuter app.py sur votre terminal avec la commande suivante :
+Apres avoir télécharger les fichiers, exécuter appV2.py sur votre terminal avec la commande suivante :
 ```
-streamlit run app.py
+streamlit run appV2.py
 ```
 ou si ça ne fonctionne pas, exécutez la commande suivante :
 ```
-python -m streamlit run app.py
+python -m streamlit run appV2.py
 ```
 
 
