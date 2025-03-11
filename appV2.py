@@ -29,7 +29,7 @@ st.write("(Double-cliquer sur une case pour voir tout son contenu)")
 st.dataframe(donnees_filtres)   # Affiche le DataFrame sous forme de tableau interactif dans l'application
 
 st.subheader("Exemple de diagramme")
-st.write("Diagramme en bâtons montrant le nb d'articles produits par année")
+st.write("Nombre d'articles produits par année")
 
 # Création d'un graphique pour visualiser la fréquence des dates de publication
 st.bar_chart(df['Annee'].value_counts())  # Crée un graphique à barres qui montre la fréquence de publication des articles
