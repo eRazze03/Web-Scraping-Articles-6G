@@ -1,8 +1,9 @@
 # Web-Scraping-Articles-6G
-Projet en Management des Systèmes d'Information (MSI) en BUT2 Informatique parcours Technologie de l'information
+__Projet en Management des Systèmes d'Information (MSI) en BUT2 Informatique parcours Technologie de l'information__
 
 ## Description du projet
-Ce projet est une application qui récupère des articles scientifiques depuis l’API d’arXiv en fonction d’un mot-clé donné. Les articles extraits sont ensuite stockés dans un fichier Excel (XLSX) et affichés sous forme d’un tableau interactif dans une interface Streamlit.
+Ce projet est une application qui récupère des articles scientifiques depuis l’API d’arXiv en fonction d’un mot-clé donné (en l'occurence sur la 6G ici). 
+Les articles extraits sont ensuite stockés dans un fichier Excel (XLSX) et affichés sous forme d’un tableau interactif dans une interface Streamlit.
 
 ## Comment exécuter le code 
 
