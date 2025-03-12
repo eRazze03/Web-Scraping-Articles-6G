@@ -3,7 +3,7 @@ __Projet en Management des Systèmes d'Information (MSI) en BUT2 Informatique pa
 
 ## Description du projet
 Ce projet est une application qui récupère des articles scientifiques depuis l’API d’arXiv en fonction d’un mot-clé donné (en l'occurence sur la 6G ici). 
-Les articles extraits sont ensuite stockés dans un fichier Excel (XLSX) et affichés sous forme d’un tableau interactif dans une interface Streamlit.
+Les articles extraits sont ensuite stockés dans un fichier Excel (XLSX) et affichés sous forme d’un tableau interactif dans une interface en utilisant le framework Streamlit.
 
 ## Comment exécuter le code 
 
