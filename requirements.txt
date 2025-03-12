@@ -3,3 +3,6 @@ pandas
 groq
 requests
 PyPDF2
+streamlit
+matplotlib
+wordcloud
