@@ -5,7 +5,7 @@ from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
 
-articles = grep_articles("6g", 30)
+articles = grep_articles("6g", 15)
 df = pd.DataFrame(articles)
 df.to_excel("articles.xlsx")
 
