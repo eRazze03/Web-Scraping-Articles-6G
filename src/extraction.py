@@ -4,7 +4,7 @@ from datetime import datetime
 import requests
 import json
 
-GROQ_API_KEY = "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"  # clé API Groq (à remplacer par votre clé API Groq)
+GROQ_API_KEY = "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"  # clé API Groq (ou remplacer par votre propre clé API Groq)
 
 def grep_articles(keyword=None, max_articles=None):
     """
