@@ -5,6 +5,7 @@ import requests
 import json
 
 GROQ_API_KEY = "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"  # clé API Groq (ou remplacer par votre propre clé API Groq)
+# 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 (autre clé API Groq)
 
 def grep_articles(keyword=None, max_articles=None):
     """
@@ -22,6 +23,7 @@ def grep_articles(keyword=None, max_articles=None):
     else:
         url = f"http://export.arxiv.org/api/query?search_query=all:{keyword}&max_results={max_articles}" 
      # si on veut les articles les plus récents dans l'ordre décroissant on peut ajouter &sortBy=submittedDate&sortOrder=descending 
+     # sinon l'API récupère par défaut les articles qu'il considère comme les plus pertinants
 
     with libreq.urlopen(url) as response:
         # Forcer l'encodage en UTF-8 lors de la lecture
